@@ -10,7 +10,7 @@
   "devDependencies": {},
   "scripts": {},
   "bin": {
-    "icode": "./bin/mvn.js",
+    "icode": "./bin/icode.js",
   },
   "repository": {
     "type": "git",
