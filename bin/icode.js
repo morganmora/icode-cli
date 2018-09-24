@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
 "use strict";
-require('../')('mvn');
+require('../')('icode');
