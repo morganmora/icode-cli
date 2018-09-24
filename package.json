@@ -7,10 +7,8 @@
   "dependencies": {
     "extract-zip": "^1.5.0"
   },
-  "devDependencies": {},
-  "scripts": {},
   "bin": {
-    "icode": "./bin/icode.js",
+    "icode": "./bin/icode.js"
   },
   "repository": {
     "type": "git",
