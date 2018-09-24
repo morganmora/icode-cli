@@ -1,0 +1,23 @@
+sudo: false
+dist: trusty
+
+language: node_js
+
+node_js:
+  - 8.9.4
+
+stages:
+  - install
+  - deploy
+
+jobs:
+  include:
+    install:
+      - npm install
+    deploy:
+      - provider: npm
+        email: ${YOUR_EMAIL_ADDRESS}
+        api_key: ${YOUR_AUTH_TOKEN}
+        on:
+          tags: true
+          condition: tag =~ ^official && branch = master
