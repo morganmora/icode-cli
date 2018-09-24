@@ -8,7 +8,7 @@ let defaultUrl = `https://github.com/lequal/i-CodeCNES/releases/download/${confi
 let fileZipName = path.resolve(__dirname, 'src', `i-CodeCNES-${config.icodeVersion}-CLI-linux.gtk.x86_64.zip`);
 let target = exports;
 target.home = process.env.HOME || process.env.USERPROFILE;
-target.home += '/.maven';
+target.home += '/.icode';
 target.path = path.join(target.home, `icode-${config.icodeVersion}`, 'bin');
 target.pathCheck = path.join(target.path, 'icode');
 
