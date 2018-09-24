@@ -1,8 +1,8 @@
 {
-  "name": "maven-cli",
-  "version": "3.5.0",
-  "description": "Install Apache Maven (Java Project Manager) from NPM",
-  "mavenVersion": "3.5.0",
+  "name": "icode-cli",
+  "version": "0.3.1.0",
+  "description": "Install Icode (shell Code Quality scanner) from NPM",
+  "icodeVersion": "3.1.0",
   "main": "index.js",
   "dependencies": {
     "extract-zip": "^1.5.0"
@@ -10,25 +10,24 @@
   "devDependencies": {},
   "scripts": {},
   "bin": {
-    "mvn": "./bin/mvn.js",
-    "mvnDebug": "./bin/mvnDebug.js",
-    "mvnyjp": "./bin/mvnyjp.js"
+    "icode": "./bin/mvn.js",
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pierreneter/maven-cli.git"
+    "url": "git+https://github.com/morganmora/icode-cli.git"
   },
   "engines": {
     "node": ">0.10.1"
   },
   "keywords": [
     "cli",
-    "maven"
+    "icode",
+    "CNES"
   ],
-  "author": "Pierre Neter",
+  "author": "Morgan Martinez",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pierreneter/maven-cli/issues"
+    "url": "https://github.com/morganmora/icode-cli/issues"
   },
-  "homepage": "https://github.com/pierreneter/maven-cli#readme"
+  "homepage": "https://github.com/morganmora/icode-cli#readme"
 }
