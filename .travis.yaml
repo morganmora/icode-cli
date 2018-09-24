@@ -9,15 +9,15 @@ node_js:
 stages:
   - install
   - deploy
-
 jobs:
   include:
     install:
       - npm install
+      - npm pack .
     deploy:
       - provider: npm
-        email: ${YOUR_EMAIL_ADDRESS}
-        api_key: ${YOUR_AUTH_TOKEN}
+          email: ${YOUR_EMAIL_ADDRESS}
+          api_key: ${YOUR_AUTH_TOKEN}
         on:
           tags: true
           condition: tag =~ ^official && branch = master
