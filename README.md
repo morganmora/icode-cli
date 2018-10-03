@@ -9,7 +9,7 @@ This installer only work with 64 bits Java for linux version.
 
 ### How to install
 
-npm -g icode
+npm -g icode-cli
 
 ### how to use
 
