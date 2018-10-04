@@ -11,9 +11,15 @@ This installer only work with 64 bits Java for linux version.
 
 npm -g icode-cli
 
+then provide execution permisions to the bin (Unix)
+
+chmod u-x ~/.icode/icode
+( or Where the files were deplyed)
+
+
 ### how to use
 
-Imagine that you want to scan you project folder that contains some shell files, so execute  ` icode **/*.sh > result.res `
+Imagine that you want to scan you project folder that contains some shell files, so execute from icode-cli installation folder  `~/.icode/icode **/*.sh -o result.res `
 
 Then configure you sonar-project.properties (on project root directory, for example) with ` sonar.icode.reports.path=.`,
 or use `-Dsonar.icode.reports.path=.` if working with maven to execute sonar.
