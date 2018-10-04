@@ -19,6 +19,4 @@ jobs:
         email: ${YOUR_EMAIL_ADDRESS}
         api_key: ${YOUR_AUTH_TOKEN}
         on:
-          condition: branch = master
-        
-
+          tag: on
