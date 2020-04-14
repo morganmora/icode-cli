@@ -26,8 +26,8 @@ or use `-Dsonar.icode.reports.path=.` if working with maven to execute sonar.
 
 Be aware that if you use sonarqube, the sonar i-code pluging $ & i-code analyzer version should match.
 
-- I-code Sonar pluging: 1.1.0
-I-code Analyzer: 3.1.0
+- I-code Sonar pluging: 2.0.2
+I-code Analyzer: 4.1.0
 
 ## INFORMATION
 
