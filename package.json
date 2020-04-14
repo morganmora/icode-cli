@@ -1,6 +1,6 @@
 {
   "name": "icode-cli",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Install Icode (shell Code Quality scanner) from NPM",
   "icodeVersion": "4.1.0",
   "main": "index.js",
