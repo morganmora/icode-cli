@@ -4,7 +4,7 @@ const config = require('./package');
 const http = require("http");
 var extract = require('extract-zip');
 
-let defaultUrl = `https://github.com/lequal/i-CodeCNES/releases/download/${config.icodeVersion}/icode-${config.icodeVersion}.zip`;
+let defaultUrl = `https://github.com/lequal/i-CodeCNES/releases/download/v${config.icodeVersion}/icode-${config.icodeVersion}.zip`;
 let fileZipName = path.resolve(__dirname, 'src', `icode-${config.icodeVersion}.zip`);
 let target = exports;
 target.home = process.env.HOME || process.env.USERPROFILE;
