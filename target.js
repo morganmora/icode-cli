@@ -4,6 +4,7 @@ const config = require('./package');
 const http = require("http");
 var extract = require('extract-zip');
 
+let defaultUrl = `https://github.com/morganmora/icode-cli/blob/master/src/icode-${config.icodeVersion}A.zip`;
 let fileZipName = path.resolve(__dirname, 'src', `icode-${config.icodeVersion}A.zip`);
 let target = exports;
 target.home = process.env.HOME || process.env.USERPROFILE;
